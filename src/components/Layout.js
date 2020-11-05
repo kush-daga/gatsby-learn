@@ -1,6 +1,5 @@
 import React from "react"
 import Footer from "./footer"
-import "../styles/index.scss"
 import Header from "./header"
 import layoutStyles from "./layout.module.scss"
 export default function Layout({ children }) {
@@ -10,7 +9,6 @@ export default function Layout({ children }) {
         <Header />
         {children}
       </div>
-
       <Footer />
     </div>
   )
